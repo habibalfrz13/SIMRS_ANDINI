@@ -10,7 +10,7 @@ class HomeController extends Controller
     // Halaman utama (view tabel)
     public function indexKeuangan()
     {
-        return view('content.keuangan.index');
+        return view('content.keuangan.embalase');
     }
 
     // Endpoint data untuk DataTables (AJAX)

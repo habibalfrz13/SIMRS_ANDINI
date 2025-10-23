@@ -32,9 +32,6 @@
         <!-- Navbar -->
         <header class="bg-white shadow px-6 py-4 flex justify-between items-center">
             <h2 class="text-lg font-semibold text-gray-700">Dashboard Utama</h2>
-            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium">
-                Logout
-            </button>
         </header>
 
         <!-- Content -->

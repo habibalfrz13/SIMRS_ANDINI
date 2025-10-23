@@ -59,41 +59,42 @@
 
     {{-- Total Embalase Cards --}}
     <div class="row g-3">
-        <div class="col-md-4">
-            <div class="card shadow-sm rounded-3 p-3 border-0" style="background-color:#f8f9fa;">
-                <div class="d-flex align-items-center justify-content-between">
-                    <div>
-                        <p class="text-muted mb-1 small">Total Embalase</p>
-                        <h2 class="fw-bold mb-0" id="totalEmbalase">0</h2>
-                        <small id="periodeEmb" class="text-muted">Semua Periode</small>
-                    </div>
-                    <i class="bi bi-prescription fs-1 text-primary"></i>
+    <div class="col-md-4 d-flex">
+        <div class="card shadow-sm rounded-3 p-3 border-0 flex-fill" style="background-color:#f8f9fa;">
+            <div class="d-flex align-items-center justify-content-between h-100">
+                <div>
+                    <h5 class="text-muted mb-1">Total Embalase</h5>
+                    <h2 class="fw-bold mb-1" id="totalEmbalase">0</h2>
+                    <h5 id="periodeEmb" class="text-muted">Semua Periode</h5>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card shadow-sm rounded-3 p-3 border-0" style="background-color:#fef9f0;">
-                <div class="d-flex align-items-center justify-content-between">
-                    <div>
-                        <p class="text-muted mb-1 small">Ralan</p>
-                        <h2 class="fw-bold mb-0" id="ralanEmbalase">0</h2>
-                    </div>
-                    <i class="bi bi-heart-pulse fs-1 text-success"></i>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card shadow-sm rounded-3 p-3 border-0" style="background-color:#f0f8ff;">
-                <div class="d-flex align-items-center justify-content-between">
-                    <div>
-                        <p class="text-muted mb-1 small">Ranap</p>
-                        <h2 class="fw-bold mb-0" id="ranapEmbalase">0</h2>
-                    </div>
-                    <i class="bi bi-hospital fs-1 text-info"></i>
-                </div>
+                <i class="bi bi-prescription fs-1 text-primary"></i>
             </div>
         </div>
     </div>
+    <div class="col-md-4 d-flex">
+        <div class="card shadow-sm rounded-3 p-3 border-0 flex-fill" style="background-color:#fef9f0;">
+            <div class="d-flex align-items-center justify-content-between h-100">
+                <div>
+                    <h6 class="text-muted mb-1">Ralan</h6>
+                    <h2 class="fw-bold mb-0" id="ralanEmbalase">0</h2>
+                </div>
+                <i class="bi bi-heart-pulse fs-1 text-success"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 d-flex">
+        <div class="card shadow-sm rounded-3 p-3 border-0 flex-fill" style="background-color:#f0f8ff;">
+            <div class="d-flex align-items-center justify-content-between h-100">
+                <div>
+                    <h6 class="text-muted mb-1 ">Ranap</h6>
+                    <h2 class="fw-bold mb-0" id="ranapEmbalase">0</h2>
+                </div>
+                <i class="bi bi-hospital fs-1 text-info"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </div>
 @endsection
