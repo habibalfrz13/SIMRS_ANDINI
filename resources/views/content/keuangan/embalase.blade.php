@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
-@section('title', 'Data Obat')
+@section('title', 'Rekapan Embalase | RSIA Andini Pekanbaru')
 
 @section('content')
 <div class="container-fluid py-3">
 
     {{-- Filter Section --}}
-    <div class="card mb-4 shadow-sm border-0 rounded-3">
+    <div class="mb-4 border-0 rounded-3">
         <div class="card-body">
             <div class="row g-3 align-items-end">
                 <div class="col-md-3">
@@ -33,8 +33,8 @@
     </div>
 
     {{-- Table Section --}}
-    <div class="card shadow-sm border-0 rounded-3 mb-4">
-        <div class="card-body p-3">
+    <div class="">
+        <div class="card-body rounded-md p-3">
             <div class="table-responsive">
                 <table class="table table-hover align-middle" id="tabel-obat">
                     <thead class="table-light text-muted small text-uppercase">
